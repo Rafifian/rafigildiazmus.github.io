@@ -1,0 +1,110 @@
+html, body {
+    font-family:'Courier New', Courier, monospace;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 500px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.header_container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 30px;
+    padding-left: 100px;
+    font-size: 20px;
+    overflow: hidden;
+    display: flex;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.title {
+    float: left;
+    margin-right: 100px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu a {
+    margin-right: 30px;
+}
+
+.container {
+    margin: 50px;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content h1 {
+    font-size: 46px;
+}
+
+.content p {
+    font-size: 20px;
+    line-height: 2;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+.image {
+    object-fit: contain;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.image img {
+    max-height: 600px;
+    width: auto;
+}
+
+.social_container {
+    width: 100%;
+}
+
+.instagram {
+    margin: auto;
+    width: 50%;
+    margin-top: 150px;
+}
+
+.instagram h1 {
+    font-size: 36px;
+}
+
+.instagram iframe {
+    height: 520px;
+}
+
+.links {
+    padding-top: 20px;
+    margin: auto;
+    width: 50%;
+}
+
+.links ul {
+    width: 100%;    
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.links ul li {
+    list-style: none;
+    vertical-align: bottom;
+    margin-right: 50px;
+}
+
+.links img {
+    object-fit: contain;
+    width: 32px;
+    height: 32px;
+}
