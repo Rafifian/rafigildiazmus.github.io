@@ -109,6 +109,43 @@ a {
     text-align: justify;
 }
 
+.download {
+    width: 100%;
+    text-align: center !important;
+}
+
+.download > a {
+    color: #0077b6;
+    -webkit-transition: color 200ms linear, text-decoration 200ms ease;
+    -moz-transition: color 200ms linear, text-decoration 200ms ease;
+    -o-transition: color 200ms linear, text-decoration 200ms ease;
+    transition: color 200ms linear, text-decoration 200ms ease;
+    position: relative;
+    text-decoration: none;
+}
+
+.download > a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.25s ease-in-out 0s;
+}
+
+.download > a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.download > a:hover {
+    color: black;
+}
+
 .loop_display {
     width: 100%;
     display: flex;
