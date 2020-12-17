@@ -146,7 +146,7 @@ a {
     color: black;
 }
 
-.loop_display {
+.media_display {
     width: 100%;
     display: flex;
     flex-direction: row;
