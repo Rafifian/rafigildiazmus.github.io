@@ -169,6 +169,14 @@ a {
     width: auto;
 }
 
+.unit h2 {
+    font-size: 20px;
+}
+
+.unit h4 {
+    font-size: 16px;
+}
+
 .social_container {
     width: 100%;
     margin: 0;
